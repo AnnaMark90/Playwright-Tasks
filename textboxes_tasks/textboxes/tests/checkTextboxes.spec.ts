@@ -1,53 +1,70 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
 
-// вынести output как глобал константу 
-// дублирование кода? 
+const inputData = {
+    name: 'Иван Петров',
+    validEmail: 'petrov@email.com',
+    unvalidEmail: 'petrov',
+    currAddress: 'ул. Пушкина, 15, кв. 42, Москва, 101000',
+    permAddress: 'пр. Ленина, 8, Санкт-Петербург, 190000',
+};
+
+// page не вынести вне теста, т.к. его ещё не существует
+const outputLocators = (page: Page) => {
+    const output = page.locator('#output');
+    return {
+        root: output,
+        name: output.locator('#name'),
+        email: output.locator('#email'),
+        currAddress: output.locator('#currentAddress'),
+        permAddress: output.locator('#permanentAddress')
+    };
+};
+
+// async function require declare return type Promise
+async function openPageDemoqa (page: Page): Promise<void> { 
+    await page.goto('https://demoqa.com/text-box',  { timeout: 60000 });
+    await expect(page.getByRole('heading', { name: 'Text Box' })).toBeVisible();
+}
 
 test('fill in data to the form', async ({ page }) => {
-    await page.goto('https://demoqa.com/text-box');
-    await expect(page.getByRole('heading', { name: 'Text Box' })).toBeVisible();
+    await openPageDemoqa(page);
 
-    await page.fill('input#userName.form-control', 'Иван Петров');
-    await page.fill('input#userEmail.form-control', 'petrov@email.com');
-    await page.fill('textarea#currentAddress.form-control', 'ул. Пушкина, 15, кв. 42, Москва, 101000');
-    await page.fill('textarea#permanentAddress.form-control', 'пр. Ленина, 8, Санкт-Петербург, 190000');
-
+    await page.fill('#userName', inputData.name);
+    await page.fill('#userEmail', inputData.validEmail);
+    await page.fill('#currentAddress', inputData.currAddress);
+    await page.fill('textarea#permanentAddress',inputData.permAddress);
     await page.getByRole('button', {name: 'Submit'}).click();
 
-    const output = page.locator('#output');
-    await expect(output).toBeVisible();
+    const output = outputLocators(page);
+    await expect(output.root).toBeVisible();
 
-    await expect(output.locator('#name')).toContainText('Иван Петров');
-    await expect(output.locator('#email')).toContainText('petrov@email.com');
-    await expect(output.locator('#currentAddress')).toContainText('ул. Пушкина, 15, кв. 42, Москва, 101000');
-    await expect(output.locator('#permanentAddress')).toContainText('пр. Ленина, 8, Санкт-Петербург, 190000');
+    await expect(output.name).toContainText(inputData.name);
+    await expect(output.email).toContainText(inputData.validEmail);
+    await expect(output.currAddress).toContainText(inputData.currAddress);
+    await expect(output.permAddress).toContainText(inputData.permAddress);
 });
 
 test('fill in uvalid email to the form', async ({ page }) => {
-    await page.goto('https://demoqa.com/text-box');
-    await expect(page.getByRole('heading', { name: 'Text Box' })).toBeVisible();
+    await openPageDemoqa(page);
 
-    await page.fill('input#userEmail.form-control', 'petrovemail');
-
+    await page.fill('#userEmail', inputData.unvalidEmail);
     await page.getByRole('button', {name: 'Submit'}).click();
 
-    await expect(page.locator('input#userEmail.form-control')).toHaveClass(/field-error/);
+    await expect(page.locator('#userEmail')).toHaveClass(/field-error/);
 });
 
 test('fill in data except email to the form', async ({ page }) => {
-    await page.goto('https://demoqa.com/text-box');
-    await expect(page.getByRole('heading', { name: 'Text Box' })).toBeVisible();
+    await openPageDemoqa(page);
 
-    await page.fill('input#userName.form-control', 'Иван Петров');
-    await page.fill('textarea#currentAddress.form-control', 'ул. Пушкина, 15, кв. 42, Москва, 101000');
-    await page.fill('textarea#permanentAddress.form-control', 'пр. Ленина, 8, Санкт-Петербург, 190000');
+    await page.fill('#userName', inputData.name);
+    await page.fill('#currentAddress', inputData.currAddress);
+    await page.fill('#permanentAddress',inputData.permAddress);
 
     await page.getByRole('button', {name: 'Submit'}).click();
 
-    const output = page.locator('#output')
-    await expect(output).toBeVisible();
-
-    await expect(output.locator('#name')).toContainText('Иван Петров');
-    await expect(output.locator('#currentAddress')).toContainText('ул. Пушкина, 15, кв. 42, Москва, 101000');
-    await expect(output.locator('#permanentAddress')).toContainText('пр. Ленина, 8, Санкт-Петербург, 190000');
+    const output = outputLocators(page);
+    await expect(output.root).toBeVisible();
+    await expect(output.name).toContainText(inputData.name);
+    await expect(output.currAddress).toContainText(inputData.currAddress);
+    await expect(output.permAddress).toContainText(inputData.permAddress);
 });
