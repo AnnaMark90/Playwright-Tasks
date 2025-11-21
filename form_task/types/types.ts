@@ -18,6 +18,23 @@ export interface userData {
     };
 }
 
+export const validData: userData = {
+    firstName: 'Alex',
+    lastName: 'Ivanov',
+    email: 'ivanov@mail.com',
+    gender: 'Male',
+    mobile: '2912345678',
+    birthDate: '2000-05-15',
+    subjects: ['Math', 'Physics', 'English'],
+    hobbies: ['Sports', 'Reading'],
+    picture: './images/image.jpg',
+    currentAddress: 'ул. Ленина, д. 10, Минск',
+    stateCity: {
+        state: 'NCR',
+        city: 'Delhi',
+    },
+};
+
 export const formSelectors = {
     firstName: '#firstName',
     lastName: '#lastName',
