@@ -1,23 +1,23 @@
 {
-    "name": "form_task",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "pretest": "tsc --incremental -p tests/tsconfig.json",
-        "test": "playwright test -c tests-out",
-        "format-check": "npx prettier . --check && npx eslint . && echo 'All matched files use ESLint code style!'",
-        "format-fix": "npx prettier . --write && echo 'All matched files use Prettier code style!'",
-        "type-check": "npx -p typescript tsc --noEmit -p ./tsconfig.json && echo 'No compiler errors!'"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "",
-    "devDependencies": {
-        "@playwright/test": "^1.56.1",
-        "@types/node": "^24.10.1",
-        "playwright": "^1.56.1",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.9.3"
-    }
+  "name": "form_task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc --incremental -p tsconfig.json",
+    "test": "playwright test -c playwright.config.ts",
+    "format-check": "npx prettier . --check && npx eslint . && echo 'All matched files use ESLint code style!'",
+    "format-fix": "npx prettier . --write && echo 'All matched files use Prettier code style!'",
+    "type-check": "npx -p typescript tsc --noEmit -p ./tsconfig.json && echo 'No compiler errors!'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "playwright": "^1.56.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
 }

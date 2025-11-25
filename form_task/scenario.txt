@@ -1,0 +1,8 @@
+positive scenario: everything is complete with valid data
+
+4 negative scenarios:
+- fill in all data, except: mobile, name, last name 
+- fill only obligaties, other are empty 
+- fill all valid and invalid email
+- fill all without name 
+- after filling in valid data, double click on "Submit"
