@@ -74,7 +74,7 @@ export async function chooseOption(
     };
     const genderLabel = page.locator(genderMap[values[0]]);
     await genderLabel.waitFor({ state: "visible", timeout: 10000 });
-    await genderLabel.click({ force: true });
+    await genderLabel.click();
   } else if (optionKind === "hobbies") {
     for (const elem of values) {
       const hobbyLabel = page.getByLabel(elem);
@@ -105,6 +105,8 @@ export async function selectLocation(
   page: Page,
   location: { state: string; city: string }
 ): Promise<void> {
+  await page.waitForTimeout(500);
+
   await page.locator(formSelectors.state).click();
   await page
     .locator(".css-26l3qy-menu div.css-1n7v3ny-option", {
@@ -179,15 +181,6 @@ export async function closeModal(page: Page): Promise<void> {
   await page.getByRole("button", { name: "Close" }).click({ force: true });
 }
 
-export async function invalidHighlight(
-  page: Page,
-  fieldSelector: string
-): Promise<void> {
-  await expect(page.locator(`${fieldSelector}:invalid`)).toBeVisible({
-    timeout: 9000,
-  });
-}
-
 export async function emptyValue(
   page: Page,
   fieldSelector: string
@@ -195,11 +188,22 @@ export async function emptyValue(
   await expect(page.locator(fieldSelector)).toHaveValue("");
 }
 
+export async function invalidHighlight(
+  page: Page,
+  fieldSelector: string
+): Promise<void> {
+
+  await expect(page.locator(`${fieldSelector}:invalid`)).toBeVisible({
+    timeout: 90000,
+  });
+}
+
 export async function validHighlight(
   page: Page,
   fieldSelector: string
 ): Promise<void> {
+
   await expect(page.locator(`${fieldSelector}:valid`)).toBeVisible({
-    timeout: 9000,
+    timeout: 90000,
   });
 }

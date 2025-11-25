@@ -1,5 +1,12 @@
 import { test, expect, type Page } from "@playwright/test";
-import { formSelectors, validData, TestDataInvalEmail } from "../types/types";
+import {
+  formSelectors,
+  validData,
+  TestDataInvalEmail,
+  DataObligatory,
+  DataWithoutName,
+  DataWithoutObl,
+} from "../types/types";
 import {
   openPageDemoqa,
   fillAllTextData,
@@ -14,6 +21,7 @@ import {
   fillPartialTextData,
   invalidHighlight,
   expectTableOneValue,
+  validHighlight,
 } from "../helpers/helpers";
 
 test.describe("testing form", () => {
@@ -42,11 +50,11 @@ test.describe("testing form", () => {
   });
 
   test("filling in data without obligatory ones", async ({ page }) => {
-    await fillPartialTextData(page, validData, ["email", "currentAddress"]);
+    await fillPartialTextData(page, DataWithoutObl, ["email", "currentAddress"]);
 
-    await chooseDateOfBirth(page, validData.birthDate);
-    await uploadImage(page, validData.picture);
-    await selectLocation(page, validData.stateCity);
+    await chooseDateOfBirth(page, DataWithoutObl.birthDate);
+    await uploadImage(page, DataWithoutObl.picture);
+    await selectLocation(page, DataWithoutObl.stateCity);
 
     await submitForm(page);
 
@@ -55,14 +63,13 @@ test.describe("testing form", () => {
     await invalidHighlight(page, formSelectors.mobile);
   });
 
-  test("filling in only obligatory data", async ({ page }) => {
-    await fillPartialTextData(page, validData, [
+  test("filling only obligatory data", async ({ page }) => {
+    await fillPartialTextData(page, DataObligatory, [
       "firstName",
       "lastName",
-      "email",
       "mobile",
     ]);
-    await chooseOption(page, "gender", [validData.gender]);
+    await chooseOption(page, "gender", [DataObligatory.gender]);
 
     await submitForm(page);
 
@@ -70,16 +77,16 @@ test.describe("testing form", () => {
     await expectTableOneValue(
       page,
       "Student Name",
-      `${validData.firstName} ${validData.lastName}`
+      `${DataObligatory.firstName} ${DataObligatory.lastName}`
     );
-    await expectTableOneValue(page, "Student Email", `${validData.email}`);
-    await expectTableOneValue(page, "Mobile", `${validData.mobile}`);
+    await expectTableOneValue(page, "Gender", `${DataObligatory.gender}`);
+    await expectTableOneValue(page, "Mobile", `${DataObligatory.mobile}`);
     // отображается дефолтная дата рождения (дата заполнения)
 
     await closeModal(page);
   });
 
-  test("filling in valid data and invalid email", async ({ page }) => {
+  test("filling not valid email", async ({ page }) => {
     await fillAllTextData(page, TestDataInvalEmail);
 
     await chooseOption(page, "gender", [TestDataInvalEmail.gender]);
@@ -93,29 +100,40 @@ test.describe("testing form", () => {
     await submitForm(page);
 
     await invalidHighlight(page, formSelectors.email);
-    // написать проверку на остальные поля с псевдокласами :valid
-    // Current Address, Hobbies, Mobile(10 Digits), Date of Birth, Name, Gender validHighlight()
+
+    await validHighlight(page, formSelectors.lastName);
+    await validHighlight(page, formSelectors.gender("Male"));
+    await validHighlight(page, formSelectors.mobile);
+    await validHighlight(page, formSelectors.birthDate);
+    // await validHighlight(page, formSelectors.hobbies);
+    await validHighlight(page, formSelectors.currentAddress);
   });
 
-  test("fill all valid data without name", async ({ page }) => {
-    await fillPartialTextData(page, validData, [
+  test("filling data without name", async ({ page }) => {
+    await fillPartialTextData(page, DataWithoutName, [
       "lastName",
       "email",
       "mobile",
       "currentAddress",
     ]);
 
-    await chooseOption(page, "gender", [validData.gender]);
-    // await chooseOption(page, "subject", [...validData.subjects]);
-    // await chooseOption(page, "hobbies", [...validData.hobbies]);
+    await chooseOption(page, "gender", [DataWithoutName.gender]);
+    // await chooseOption(page, "subject", [...DataWithoutName.subjects]);
+    // await chooseOption(page, "hobbies", [...DataWithoutName.hobbies]);
 
-    await chooseDateOfBirth(page, validData.birthDate);
-    await uploadImage(page, validData.picture);
-    await selectLocation(page, validData.stateCity);
+    await chooseDateOfBirth(page, DataWithoutName.birthDate);
+    await uploadImage(page, DataWithoutName.picture);
+    await selectLocation(page, DataWithoutName.stateCity);
 
     await submitForm(page);
 
     await invalidHighlight(page, formSelectors.firstName);
-    // написать проверку на остальные поля с псевдокласами :valid и :invalid
+    await validHighlight(page, formSelectors.lastName);
+    await validHighlight(page, formSelectors.email);
+    await validHighlight(page, formSelectors.gender("Female"));
+    await validHighlight(page, formSelectors.mobile);
+    await validHighlight(page, formSelectors.birthDate);
+    // await validHighlight(page, formSelectors.hobbies);
+    await validHighlight(page, formSelectors.currentAddress);
   });
 });

@@ -5,4 +5,7 @@ positive scenario: everything is complete with valid data
 - fill only obligaties, other are empty 
 - fill all valid and invalid email
 - fill all without name 
-- after filling in valid data, double click on "Submit"
+
+questions:
+- difficulty while running tests in webkit
+- finding an elemants for hobbies and subjects (working with react library)
