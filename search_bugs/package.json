@@ -2,17 +2,24 @@
   "name": "search_bugs",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:allure": "playwright test --reporter=allure-playwright"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "@types/node": "^24.10.1"
+    "@types/node": "^24.10.1",
+    "allure-playwright": "^3.4.2"
   },
   "dependencies": {
     "typescript": "^5.9.3"
   },
-  "type": "module"
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
 }
