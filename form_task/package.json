@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "allure-playwright": "^3.4.2"
+  },
+  "reporter": [
+    ["list"],
+    ["allure-playwright"]
+  ],
+  "use": {
+    "screenshot": "on",
+    "trace": "on",
+    "video": "on"
+  }
+}
