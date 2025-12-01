@@ -5,6 +5,8 @@
 Playwright Test is an end-to-end test framework for modern web apps. It bundles test runner, assertions, isolation, parallelization and rich tooling. It gives an ability to efficintly test web applications and supports Chromium, WebKit and Firefox on Windows, Linux and macOS, locally or in CI, headless or headed, with native mobile emulation for Chrome (Android) and Mobile Safari.
 Playwright has become popular for its flexibility, speed and ease of use, as well as supporting multilingual programming and asynchronous operations.
 
+Разнообразные типы тестов: функциональные тесты, тесты UI, тесты производительности, end-to-end tests.
+
 ## Когда и где использовать
 
 - **Функциональное тестирование**: проверка работоспособности веб-приложений (регистрация, покупка, формы).
@@ -94,6 +96,9 @@ Allure — для enterprise/CI, HTML — для быстрой локально
 ## Allure: Репортер, Подключение и API
 
 `Что такое репортер и зачем нужен?` Репортер Allure – плагин для красивых интерактивных отчетов с шагами, вложениями (скриншоты, логи, видео), историей запусков, категориями (severity, features). Нужен для анализа фейлов, метрик (duration, passed/failed), интеграции с CI/CD.
+
+Allure Report consists of a framework adapter and the allure command-line utility. After a initial configuration, creating a test report.
+
 **_Почему Allure лучше Playwright HTML_**
 
 - Шаги + метрики
@@ -124,7 +129,7 @@ Allure — для enterprise/CI, HTML — для быстрой локально
 
 ## Фикстуры
 
-В контексте @playwright/test, фикстуры — это механизмы для управления ресурсами (браузерами, страницами, базой данных и т.д.) и передачи данных в тесты.
+В контексте @playwright/test, фикстуры — это механизмы для управления ресурсами (браузерами, страницами, базой данных и т.д.) и передачи данных в тесты
 
 Также — это способ описать «что нужно тесту перед стартом» и «как это правильно почистить после»,
 they allow to reuse and share code across different test-cases. Встроенные фикстуры — это, например, `page`, `context`, `browser`, `request`: тебе не нужно каждый раз руками создавать браузер и страницу, ты просто получаешь объект `page` как аргумент теста. Они переиспользуются для параллелизации и изоляции тестов.
@@ -189,6 +194,8 @@ they allow to reuse and share code across different test-cases. Встроенн
 
 Global setup/teardown — это «обёртка» на уровне всего запуска тестов. Global setup выполняется один раз перед всеми тестами, global teardown — один раз после всех тестов (например, в конце CI‑джоба).[9]
 
+Для чего: Глобальная подготовка/очистка окружения один раз для всех тестов. Создание тестовых данных, запуск mock-серверов, инициализация БД.
+
 Типичные сценарии:
 
 - В `globalSetup` выполнить логин и сохранить `storageState` в файл, чтобы не логиниться в каждом тесте.
@@ -219,6 +226,8 @@ await browser.close();
 ## Storage state (storageState)
 
 `storageState` — это снимок состояния браузерного хранилища: cookies, localStorage, sessionStorage и т.п., привязанный к контексту. Идея простая: один раз логинишься, сохраняешь это состояние в JSON‑файл, потом в тестах подставляешь этот файл и сразу оказываешься в приложении как уже залогиненный пользователь.[9]
+
+Для чего: Переиспользование статического состояния браузера (cookies, localStorage, sessionStorage) между тестами. Идеально для аутентификации — один логин, все тесты стартуют авторизованными.
 
 Обычно схема такая:
 
