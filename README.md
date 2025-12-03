@@ -1,1 +1,8 @@
-Create automated end-to-end tests using Playwright (TypeScript) for three web applications: DemoQA Text Box Form, DemoQA Practice Form, and SauceDemo e-commerce site. Tests must cover form filling, file uploads, sorting functionality, and bug detection across multiple browsers with Allure reporting.
+## Repository Branches Structure
+
+**Each branch corresponds to a specific testing assignment:**
+
+- **textbox** - DemoQA Text Box: 1 positive + 1 negative scenarios [https://demoqa.com/text-box](https://demoqa.com/text-box)
+- **form** - DemoQA Practice Form: 1 positive + 4 negative scenarios [https://demoqa.com/automation-practice-form](https://demoqa.com/automation-practice-form)
+- **select-sorting** - SauceDemo standard_user: login → sort High-to-Low
+- **searching-bugs** - SauceDemo problem_user: bug detection tests. Allure reports integrated
