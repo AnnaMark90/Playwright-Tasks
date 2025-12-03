@@ -50,18 +50,12 @@ export async function chooseOption(
   values: string[]
 ): Promise<void> {
   if (optionKind === "subjects") {
-    const input = page.locator("#subjectsInput");
+    const input = page.locator(formSelectors.subjectsInput);
     for (const elem of values) {
       await input.click();
-      await input.fill("");
-      await input.pressSequentially(elem);
-      const option = page
-        .locator(
-          ".subjects-auto-complete__menu-list div.subjects-auto-complete__option"
-        )
-        .filter({ hasText: elem });
-      await option.waitFor({ state: "visible", timeout: 5000 });
-      await option.click();
+      await input.fill(elem);
+      await input.press("Enter");
+      await page.locator(".css-1wy0on6").filter({ hasText: elem }).first();
     }
     await expect(
       page.locator(".subjects-auto-complete__multi-value__label")
@@ -192,7 +186,6 @@ export async function invalidHighlight(
   page: Page,
   fieldSelector: string
 ): Promise<void> {
-
   await expect(page.locator(`${fieldSelector}:invalid`)).toBeVisible({
     timeout: 90000,
   });
@@ -202,7 +195,6 @@ export async function validHighlight(
   page: Page,
   fieldSelector: string
 ): Promise<void> {
-
   await expect(page.locator(`${fieldSelector}:valid`)).toBeVisible({
     timeout: 90000,
   });

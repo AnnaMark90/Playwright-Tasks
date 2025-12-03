@@ -1,0 +1,222 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjss9BKCOOUu55YjBgd8WthdfSfluyebwYQt_7TYzqDFGWEU45svZzWlZ2CVsTOj38YIGsL42-LC8ZKaqkUPg0tsf9qmhzXi2qtRPFrFTP4ZZsCcyOgbFA83q1CUVU77-4gCuoD24hWTezRRZopDgO1ylrFhZBy7pPDmjTKNjaM98GXTQuDQIB2oJzZ89PvVBU8MqjyoH9cdDiQGf6CAShvzBgv9ceODSBqOiTjtGgZgYUPBSWgfKaRQeTH42SCrE1Qz63hUgieKVeGg3F8SXmCKWtmjanCKcRAbLQB-wA8VNyIkzOWW84amCdXYrzkqku4vyA25S67pGeSvMLnPPbCFWo4L97ZcI5cEF__a4-pyat-e5b70FGR7oTzVhtjPWtQcu3xOYbCHHJQO_m8SmK8TsEHWsJbhV8ZFnXkZCEqTM6Mo4MU03HqMSahqVMfAKLDe6xqY2tewmn87dlMtTCaJvq67MSZBZSSeTsaR4aGhwtgTsJDBfbEdoO3M23yaBrXWR38fxDkj9X5zBkDmB0LQ5h8FVVAA-QMf-GzdIf3DwBQOnXHwSTko_VDjxVHwIQsDJWcB5SigjMqx3D7f70gY79l2ara9_w6UxMphS9rzw1aEx0aVkPnDKJ7V6E3v_t8wTep6uRJOZPd3xFWhtr0l4B9lVTkTuWlzRx_d1lLqW8xF_UjuTBuVhSe5ZqpB-gntKUtqB3IiGiksyOk9DwZhs8BQxzizgBh1DPeLbMGhQFR426aSMTUpSLkavvGFCn1_AUQ8nOou6FSjcP5vlPx-mj9YfRvUgUUkE0Bj02aSoW4-5a5moeKKFamE9EMEZbNq-PwiSk7cIDc_1UKr41mcPhCkaH7RymyNoH08dOR0OU5KKa1tzCy2k53I_fd_iP6fiuiYWJoFa7aNDaUJTNSP69gz1BNULF3V27JN0aGjGcIcCGf9o19YD2Tsp1LSi_oPV0cSPHyvfN0pgkphk4_nQajwgqb4G7kA82FcWt0tddUERTDD0Mp2HwejUph-VAUbJbCbOmMdtGEG2k-ioupriCPaMcfXNmX9DIny0TdRP__XiilCofqYsSAg7g0XvPcz2iYiO71-oGKakkgkWEze3r4kGdmnUn8sFttQrzaO8LL4pibmdA_yGFcsu7Kgl95WGfaIWfo6K7wyL2T9uuPJwRrZYMjyTfi4y93GW8PpPjYLim07XMSoVa1XvNsmuWfWJNZwXrtCKwPERqRFPu4N2Haext3lHQm1mFq1_pjPkNqT6GlUtM7D2q5krqPbrs4SjjU7803kR_IfHxKd-15m4JcfgUoVzKuKdCM4oEK713lIlkrQ8UTUUmY-kR3h43hRyA6flk-JscVAhkQVqBm0H4UmVqwtuRvqyYT2ASth5m05sHz5JJlceMB1o468hv3atLNZA9GvvJXu8xLfjhVhCYSnYb5iJGJ5Q8G7K2dAVGCPQusLs-qLid2JwLx9ZpGQuVLpC-nw-2Xf7mbjlNzGR9vn-Bh-FLM9_Q4nFQ847-ZnUGXgvJ8Fvhoy0nCyVkQ7g_OJPl4Y6bbI3JIx0tq1C6FQD5T5FvlJQlWVBoZv_kIn5JMcXU_PyQCrCY-Vi9pziPVkpvZgs-uQTuda7VMcdrTYGZ0SwMG-b513-ezGblQxJjskdBSOSjTeXYHKgLvSM6CyMd-JDdcrzmkP3x9ydC86MCuGiXYf9VpA-hKmzdQ5-fOuV199EOzRc5MTi3GzbJtGPdjJN8Ar8DMnepSV3UB1dDEJtFvuRhEfbUjgKHWL-5o0mnb8HBjQChlqT2z-GkslhCAUNseBF1RiuH-gQdk7Xol4x0xrPhwon-MLux0rmuSELm5vXVNB8geJXzESA6kBnXhC_KZUK6Q--yvlPOxK_HCPA16E601zIYPPhtFovowVCImYWDCplqPdIAjwFDm-YW5HxfjEqOdEtmw&sai=AMfl-YRKpBP0_Qgt5Nqs8jFwYgdfID3N1D2nXLS1Pb-1eGVIsbhYiv5187ej-x250QWNqksaakeVh9qRL7mzd3nHc37NPghtI2OrrlQXin2aMeYsicMvbrCZls83HTz4EXdzuLcWtjFcN_ggwzHBpAGH-tqk5HKydU8uVr6_MRHzj4uvwNQA_GPX-eDAeeDqHOWPEplKHmNQQU00GzdHXsWFU9TOY4hE_HwvauB7jOn4OuB2APCUI7ldgKfY9GXQegQp0WuXdIPiS07i25ujRz7G5QoeoTWP07DUnO6aNqO7-v0D1s265R0gQR5RbV36lTUPFp86nCS0jf5DOu4jgyUGFXm_-F0XA_GIsk1nPVoCz1bs54s_0U_EdxcaDK0cwHbrypYucE4rHP3HFdOv2PNf_3w6USfp2x0Gkis_w64PcJsWqw9QAd68knMunlVtDUHuKj8IeItw-MNOnWFv2d5wQ2_rCc0gbq0RHJoNRw9pIu_61h8TCIb7A8VQMNjEMayByqwZ2vtFGh0IzOk3BktFqYVGnsDEJRo3ULbbcpD0T_rpF3o2Vr_mc1JOdqvBPbaJUMHRs0MCcflniI5hElF5H_0Dga0puCTfclS6&sig=Cg0ArKJSzKDySjSFPEHJ&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9waGFybWxhbmQuYnk&urlfix=1&adurl=https://pharmland.by/product/kategoriya-produktovsiropy/alyugel-a.html%3Futm_source%3Dcps%26utm_medium%3Dgoogle%26utm_campaign%3Dvnimanie_students_alygel%26utm_term%3D%7Bplacement%7D%26utm_content%3Dstatika_alygel%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]:
+            - img [ref=e25]
+            - text: Elements
+          - img [ref=e30]
+        - generic [ref=e34]:
+          - generic [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - img [ref=e39]
+              - text: Forms
+            - img [ref=e45]
+          - list [ref=e50]:
+            - listitem [ref=e51] [cursor=pointer]:
+              - img [ref=e52]
+              - generic [ref=e54]: Practice Form
+        - generic [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]:
+            - img [ref=e60]
+            - text: Alerts, Frame & Windows
+          - img [ref=e65]
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - text: Widgets
+          - img [ref=e79]
+        - generic [ref=e85] [cursor=pointer]:
+          - generic [ref=e86]:
+            - img [ref=e88]
+            - text: Interactions
+          - img [ref=e93]
+        - generic [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]:
+            - img [ref=e102]
+            - text: Book Store Application
+          - img [ref=e107]
+      - generic [ref=e111]:
+        - iframe [ref=e114]:
+          - generic [ref=f2e3]:
+            - link [ref=f2e4] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CPx6M1-MvadjzA8bO9u8P257nqQegwqvrgwHc67W1nhXa2R4QASDG-9Z5YPGwXaABh9Py6SjIAQKpAuNUq9aBhrM-4AIAqAMByAMIqgS6Ak_QZFozOpp2stdkpnWyv1BStvRBuq2WuHDQQ2ShlrPlodp-Ji7yucJs7UbCtL1KeLSQQDE7cFtpk0NhNQfInmakCIprfQ0lPQTALSdWKUwiIIK_ssMLuRr4Tx5NO89EQaCdwu2WgGiB4cH2LcydJIzdcn5pQXuAOyzcJuU2PU1OrOU1fmREa9wAE9BfTaNh5VV_j1k-03W38Cruz2z9iKwqC-hBsb1LIGtOpPpjqgU3PcgkQ9lCBS8bzlpV9FKM36hnmF-fq60nQBvdkqVpEgB0soCeClI8DVm0CAjpytEZQ2TmEVglJZhr3vjpQf_vyYk59BpHfSGTQFEW1Pw8fJlC--d8qg1NP3LYlZCxfeNJaBM-t1GiCFFXTOVJJDNJg8RvfCUpkY25e-Rsgx5FW7jxVilC2y1f_Y42wATG4eGuzwXgBAGIBab_oOVWoAYCgAeHi8PJA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WICbpfLvoJED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQmz3WOFjMlPUoAKA5gLAcgLAaIMCyoGCgTW2LECkAEB2gwRCgsQkLLLmdu2meqBARICAQOqDQJCWcgNAeINEwjOxqXy76CRAxVGp_0HHVvPOXXqDRMIq5Gm8u-gkQMVRqf9Bx1bzzl18A0CiA7___________8B2BMD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNaoYFwn_____d2kPQRIKNjE2ODU3NjUwNRgBshgJEgLjThgCIgEA&ae=1&ase=2&gclid=EAIaIQobChMImLvB8u-gkQMVRqf9Bx1bzzl1EAEYASAAEgKDxfD_BwE&num=1&cid=CAQSnwEAwksa0VCroOdnv6_HdacV3wcZdaNjKiDqIMLKspclDx393WHsaq5ewHM7fJP7KnrehAATtm6EROCSQlhmZaex_aYzYu_NPwErxAJ_T-NvmbW6SWxnWekAimQUEOUaAG2BEHV48x4WtfgaTB3LtIewd7GTS8FXtb8GVnOJp1fMvRJsfy9yvlRocznWFaPdGgiK1XLoJceYbLwdvb0JAhMYAQ&sig=AOD64_3_pujQBYwaSDRbvff6ZW20T3fYVQ&client=ca-pub-4573231550355221&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://edostavka.by/brands/553%3Fcid%3D5060%26utm_source%3Dgdn%26utm_medium%3Dcpm%26utm_campaign%3Dborjomi_ny
+            - generic [ref=f2e6]:
+              - link [ref=f2e8] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde936ZXD3ak9MyvzCMUQHFAgJlM8K-3_YUuqvS2Reu4GbalifURBuawkS7GRF8DHND-9jfQJ1PAM_kZ08qirz1sk7NAoBrWk9Fd32oiCoQSDNVIVGv1Aqb3jCZ7QdbxiLjgS5VHyTKR3pT0AdSvKbYkmJDSAfEUTRJeCCjOaTB_m4NX255xiDFf_qLryPtx0oi0NpYkPQtM-ZVGKvrRmUoOKDNrUioelUuE_Z9Zs2PfNPj9S2y765_yG_xCxm74ZlXdIuKz5tjnXoQlfvhkqFv-I0pJr5m312ITGiKfJNf9DTR3iwqPs0SfdMBfT-ayhZwxU9M9UsDwUTnwXwPJheGLwbBgGAz49mi2Arb1RYyJiSCR9_ZCSWk1f2o5WF-J2D89xkLZQ8fqCwrE1cmplDwZu8GlRq1moZ23WqF3bCXHJJA9yTGV0cSCy7VlE8zC43oGaQ-MBdUcCYpmlQvFCuCjFGc-bNyPbiJ2wir-PwkF8LV06lTrmC0lX7jDfN-xxkgm7omRajpVzKqQfIRb-kEeyjvMBVk-Ru3KMQKMwU6WpEkNLp-zbfZ81M5C8ptzFG-t5W96QDisJbiziGQKgxzmNa2Ah8sQzNIHlA2U2XicOBn5bgy8p1Y8m3x71L0zKQ0sFeRKly0l97_HxfY1pbdyk3tita4PRHAIUoojedbYq-Av1Wp9oQmCgaMLsPIvIvqLstPHOh1gmIkvDl-lAvPuslSMDM0a4wtSCF8S8Re-E8hNOsG3VVOY9_dreSrss6I9hmaBNSErY8_uoOpOjBSUSkEHaQJ0-ilfITwLanE57OlVDqeYcb2OdVDVLaNEkxFEr1n-XyoNLC1LSad_a52fAP0T8QDbRweTFv0ngyyJYL8CmICi2x9B5kbG8JP0xfsTKSfwObjbmuTRmX4AohqZUgSOaNLAxEhiovygPBH0743syGLCg4-pzqd-sw9Qm2j4YffETmJyXOJxuyEUFD-Ivja228fHK0dX46-dfjKl1dJ7YT5B1ewzkI3Pa6NWxY4SvxFNZPVzCoB_MWy0KhEHrlXgZ6Ba6PGwV1o5yP2nXtMjsX-P4SySVnZMeDNZecOJrC76k0bus-UEpzrofyoYQlNxReI6ITrI1ZPMjFATdZiG3l_xeRgfJlQ9HP6-dDhGtZyqp4lkG3gdiJAj4OBlnu18ulh4wu_6qk_Wxfmzp8rVz4P05bn7EOEQWfri-DlTXA-egT-1yt5TSR_b8x7cW8NYE1UHlIhsUOg6fzrJcYclh17-l2PGx_z1TsEnozhwbH_t4ffGGJOuKI3pi_ZgCv93MAygpJ8KBSeNQp7hc7I2-Z2FZLmHfMNTTBzfbQFwJip7bgx6btMHp-b7TJtpq3FXGRly9PFhtKe4jxeIpbrtVEla8MOIbgvCnHCYLgQygCtoZ7pkBcT3Oe6UkntwX5MlEE7gLOZcWmofeeVWj_BUhfd9yjbTeJLkLXIp--_7s4LOvbQ2cgGvMWSs13j60_c7UPLlZ9eSZZxG07OC5sC2fpbwU3S5x8Jwk7eCB6slDivmZH9rrNC-4H2ZEykd8mx0ySzEHYxh1x1UtAIMP6P_M5NfzgvwFSm0YjKcs2x728RMbRkKrhZIbHIsFa2WdhUtV_3jSUTq50ILwNX76nIrV5emEgetbwpvinLQ-I93SXfyV0IFoRSlmU2VSHdY2M7YqkyZRjHYocHNy04YiFPNCfzd5OODCBj43JchpYSuRBH67-V8UC--Pj76Jaj5RBq7V-j4RKKjGQ-5hesYKNY0PqEqrNDpeChkl3ryt9ukN1jMzsVNWt_NsUWpp1Ec9rIhcC06fq36NMNP5w5LjwLWFRTlc_AYQI4XAPSAPNGcS8CCR6PHQjzmYIAYdzbASxs4pw8Q9_jgVwztohZPDOMgIkdFDN-gutWx6usPSamBJBA1mmQch_JmkbHeiEYQit03tz6nEeJpHZaLnHfbKDLBS2S3XAcrKbHlyxHhjoGyDfvTLcwoK78Ok0m4rt1wZNxqV52Yv8XnbfK7k_bkaF4imQ2Txw5yiAufItamTO5v390jVxOjEvaOfML4uonjuQu1WznRcG0mnMDFG95Zt7PY9IruL2WxztjvWpXefDPWH3w75C8Ov67WdBT5vmLWAp-aRYSMkFtozUEf0k_MdvoQe24_OTgiKmPvwlJEEQXSyoIZ0AksO4C9NND_BkaEh5loDAPZYQbafZ5YsAxtpAVJceebEviuMfQkjxRCvfUpjcVRr1XcyQ5vj3kYq3Zcew9-DqViZ4ZLSPHPYw9rwIOeD8__5-Jdrwr8uV9T4NLGTttM3jH-y9BXzu_XhzsIa8lKHshyH3pQCIzIBkKracGvj7nFQW2u-hdeyxreZ9S5Injs5hE0QW0wY5oOzHI13cZuOoK5L9382WigqLxG8i5XmfUIhknGz0kfUgnt4zaU7lbuechUW4eEUsi8uI-J5H5N0lmDNQd7atdg7oWleGCqbj7Fljt0zMbqceuJ6Ro2NBSK-SzxHcd2y3mo1BeeFC5DGsrxLLbeFv6Oh5hdx2eHFT_f_bZHnCXA9s&opi=122715837
+                - img [ref=f2e10]
+              - link [ref=f2e12] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde936ZXD3ak9MyvzCMUQHFAgJlM8K-3_YUuqvS2Reu4GbalifURBuawkS7GRF8DHND-9jfQJ1PAM_kZ08qirz1sk7NAoBrWk9Fd32oiCoQSDNVIVGv1Aqb3jCZ7QdbxiLjgS5VHyTKR3pT0AdSvKbYkmJDSAfEUTRJeCCjOaTB_m4NX255xiDFf_qLryPtx0oi0NpYkPQtM-ZVGKvrRmUoOKDNrUioelUuE_Z9Zs2PfNPj9S2y765_yG_xCxm74ZlXdIuKz5tjnXoQlfvhkqFv-I0pJr5m312ITGiKfJNf9DTR3iwqPs0SfdMBfT-ayhZwxU9M9UsDwUTnwXwPJheGLwbBgGAz49mi2Arb1RYyJiSCR9_ZCSWk1f2o5WF-J2D89xkLZQ8fqCwrE1cmplDwZu8GlRq1moZ23WqF3bCXHJJA9yTGV0cSCy7VlE8zC43oGaQ-MBdUcCYpmlQvFCuCjFGc-bNyPbiJ2wir-PwkF8LV06lTrmC0lX7jDfN-xxkgm7omRajpVzKqQfIRb-kEeyjvMBVk-Ru3KMQKMwU6WpEkNLp-zbfZ81M5C8ptzFG-t5W96QDisJbiziGQKgxzmNa2Ah8sQzNIHlA2U2XicOBn5bgy8p1Y8m3x71L0zKQ0sFeRKly0l97_HxfY1pbdyk3tita4PRHAIUoojedbYq-Av1Wp9oQmCgaMLsPIvIvqLstPHOh1gmIkvDl-lAvPuslSMDM0a4wtSCF8S8Re-E8hNOsG3VVOY9_dreSrss6I9hmaBNSErY8_uoOpOjBSUSkEHaQJ0-ilfITwLanE57OlVDqeYcb2OdVDVLaNEkxFEr1n-XyoNLC1LSad_a52fAP0T8QDbRweTFv0ngyyJYL8CmICi2x9B5kbG8JP0xfsTKSfwObjbmuTRmX4AohqZUgSOaNLAxEhiovygPBH0743syGLCg4-pzqd-sw9Qm2j4YffETmJyXOJxuyEUFD-Ivja228fHK0dX46-dfjKl1dJ7YT5B1ewzkI3Pa6NWxY4SvxFNZPVzCoB_MWy0KhEHrlXgZ6Ba6PGwV1o5yP2nXtMjsX-P4SySVnZMeDNZecOJrC76k0bus-UEpzrofyoYQlNxReI6ITrI1ZPMjFATdZiG3l_xeRgfJlQ9HP6-dDhGtZyqp4lkG3gdiJAj4OBlnu18ulh4wu_6qk_Wxfmzp8rVz4P05bn7EOEQWfri-DlTXA-egT-1yt5TSR_b8x7cW8NYE1UHlIhsUOg6fzrJcYclh17-l2PGx_z1TsEnozhwbH_t4ffGGJOuKI3pi_ZgCv93MAygpJ8KBSeNQp7hc7I2-Z2FZLmHfMNTTBzfbQFwJip7bgx6btMHp-b7TJtpq3FXGRly9PFhtKe4jxeIpbrtVEla8MOIbgvCnHCYLgQygCtoZ7pkBcT3Oe6UkntwX5MlEE7gLOZcWmofeeVWj_BUhfd9yjbTeJLkLXIp--_7s4LOvbQ2cgGvMWSs13j60_c7UPLlZ9eSZZxG07OC5sC2fpbwU3S5x8Jwk7eCB6slDivmZH9rrNC-4H2ZEykd8mx0ySzEHYxh1x1UtAIMP6P_M5NfzgvwFSm0YjKcs2x728RMbRkKrhZIbHIsFa2WdhUtV_3jSUTq50ILwNX76nIrV5emEgetbwpvinLQ-I93SXfyV0IFoRSlmU2VSHdY2M7YqkyZRjHYocHNy04YiFPNCfzd5OODCBj43JchpYSuRBH67-V8UC--Pj76Jaj5RBq7V-j4RKKjGQ-5hesYKNY0PqEqrNDpeChkl3ryt9ukN1jMzsVNWt_NsUWpp1Ec9rIhcC06fq36NMNP5w5LjwLWFRTlc_AYQI4XAPSAPNGcS8CCR6PHQjzmYIAYdzbASxs4pw8Q9_jgVwztohZPDOMgIkdFDN-gutWx6usPSamBJBA1mmQch_JmkbHeiEYQit03tz6nEeJpHZaLnHfbKDLBS2S3XAcrKbHlyxHhjoGyDfvTLcwoK78Ok0m4rt1wZNxqV52Yv8XnbfK7k_bkaF4imQ2Txw5yiAufItamTO5v390jVxOjEvaOfML4uonjuQu1WznRcG0mnMDFG95Zt7PY9IruL2WxztjvWpXefDPWH3w75C8Ov67WdBT5vmLWAp-aRYSMkFtozUEf0k_MdvoQe24_OTgiKmPvwlJEEQXSyoIZ0AksO4C9NND_BkaEh5loDAPZYQbafZ5YsAxtpAVJceebEviuMfQkjxRCvfUpjcVRr1XcyQ5vj3kYq3Zcew9-DqViZ4ZLSPHPYw9rwIOeD8__5-Jdrwr8uV9T4NLGTttM3jH-y9BXzu_XhzsIa8lKHshyH3pQCIzIBkKracGvj7nFQW2u-hdeyxreZ9S5Injs5hE0QW0wY5oOzHI13cZuOoK5L9382WigqLxG8i5XmfUIhknGz0kfUgnt4zaU7lbuechUW4eEUsi8uI-J5H5N0lmDNQd7atdg7oWleGCqbj7Fljt0zMbqceuJ6Ro2NBSK-SzxHcd2y3mo1BeeFC5DGsrxLLbeFv6Oh5hdx2eHFT_f_bZHnCXA9s&opi=122715837
+                - img [ref=f2e14]
+            - img [ref=f2e17] [cursor=pointer]
+            - generic [ref=f2e28]:
+              - img [ref=f2e31]
+              - generic [ref=f2e34]:
+                - text: Ads by
+                - img [ref=f2e35]
+              - generic [ref=f2e38]:
+                - generic [ref=f2e41] [cursor=pointer]: Send feedback
+                - link [ref=f2e43] [cursor=pointer]:
+                  - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde936ZXD3ak9MyvzCMUQHFAgJlM8K-3_YUuqvS2Reu4GbalifURBuawkS7GRF8DHND-9jfQJ1PAM_kZ08qirz1sk7NAoBrWk9Fd32oiCoQSDNVIVGv1Aqb3jCZ7QdbxiLjgS5VHyTKR3pT0AdSvKbYkmJDSAfEUTRJeCCjOaTB_m4NX255xiDFf_qLryPtx0oi0NpYkPQtM-ZVGKvrRmUoOKDNrUioelUuE_Z9Zs2PfNPj9S2y765_yG_xCxm74ZlXdIuKz5tjnXoQlfvhkqFv-I0pJr5m312ITGiKfJNf9DTR3iwqPs0SfdMBfT-ayhZwxU9M9UsDwUTnwXwPJheGLwbBgGAz49mi2Arb1RYyJiSCR9_ZCSWk1f2o5WF-J2D89xkLZQ8fqCwrE1cmplDwZu8GlRq1moZ23WqF3bCXHJJA9yTGV0cSCy7VlE8zC43oGaQ-MBdUcCYpmlQvFCuCjFGc-bNyPbiJ2wir-PwkF8LV06lTrmC0lX7jDfN-xxkgm7omRajpVzKqQfIRb-kEeyjvMBVk-Ru3KMQKMwU6WpEkNLp-zbfZ81M5C8ptzFG-t5W96QDisJbiziGQKgxzmNa2Ah8sQzNIHlA2U2XicOBn5bgy8p1Y8m3x71L0zKQ0sFeRKly0l97_HxfY1pbdyk3tita4PRHAIUoojedbYq-Av1Wp9oQmCgaMLsPIvIvqLstPHOh1gmIkvDl-lAvPuslSMDM0a4wtSCF8S8Re-E8hNOsG3VVOY9_dreSrss6I9hmaBNSErY8_uoOpOjBSUSkEHaQJ0-ilfITwLanE57OlVDqeYcb2OdVDVLaNEkxFEr1n-XyoNLC1LSad_a52fAP0T8QDbRweTFv0ngyyJYL8CmICi2x9B5kbG8JP0xfsTKSfwObjbmuTRmX4AohqZUgSOaNLAxEhiovygPBH0743syGLCg4-pzqd-sw9Qm2j4YffETmJyXOJxuyEUFD-Ivja228fHK0dX46-dfjKl1dJ7YT5B1ewzkI3Pa6NWxY4SvxFNZPVzCoB_MWy0KhEHrlXgZ6Ba6PGwV1o5yP2nXtMjsX-P4SySVnZMeDNZecOJrC76k0bus-UEpzrofyoYQlNxReI6ITrI1ZPMjFATdZiG3l_xeRgfJlQ9HP6-dDhGtZyqp4lkG3gdiJAj4OBlnu18ulh4wu_6qk_Wxfmzp8rVz4P05bn7EOEQWfri-DlTXA-egT-1yt5TSR_b8x7cW8NYE1UHlIhsUOg6fzrJcYclh17-l2PGx_z1TsEnozhwbH_t4ffGGJOuKI3pi_ZgCv93MAygpJ8KBSeNQp7hc7I2-Z2FZLmHfMNTTBzfbQFwJip7bgx6btMHp-b7TJtpq3FXGRly9PFhtKe4jxeIpbrtVEla8MOIbgvCnHCYLgQygCtoZ7pkBcT3Oe6UkntwX5MlEE7gLOZcWmofeeVWj_BUhfd9yjbTeJLkLXIp--_7s4LOvbQ2cgGvMWSs13j60_c7UPLlZ9eSZZxG07OC5sC2fpbwU3S5x8Jwk7eCB6slDivmZH9rrNC-4H2ZEykd8mx0ySzEHYxh1x1UtAIMP6P_M5NfzgvwFSm0YjKcs2x728RMbRkKrhZIbHIsFa2WdhUtV_3jSUTq50ILwNX76nIrV5emEgetbwpvinLQ-I93SXfyV0IFoRSlmU2VSHdY2M7YqkyZRjHYocHNy04YiFPNCfzd5OODCBj43JchpYSuRBH67-V8UC--Pj76Jaj5RBq7V-j4RKKjGQ-5hesYKNY0PqEqrNDpeChkl3ryt9ukN1jMzsVNWt_NsUWpp1Ec9rIhcC06fq36NMNP5w5LjwLWFRTlc_AYQI4XAPSAPNGcS8CCR6PHQjzmYIAYdzbASxs4pw8Q9_jgVwztohZPDOMgIkdFDN-gutWx6usPSamBJBA1mmQch_JmkbHeiEYQit03tz6nEeJpHZaLnHfbKDLBS2S3XAcrKbHlyxHhjoGyDfvTLcwoK78Ok0m4rt1wZNxqV52Yv8XnbfK7k_bkaF4imQ2Txw5yiAufItamTO5v390jVxOjEvaOfML4uonjuQu1WznRcG0mnMDFG95Zt7PY9IruL2WxztjvWpXefDPWH3w75C8Ov67WdBT5vmLWAp-aRYSMkFtozUEf0k_MdvoQe24_OTgiKmPvwlJEEQXSyoIZ0AksO4C9NND_BkaEh5loDAPZYQbafZ5YsAxtpAVJceebEviuMfQkjxRCvfUpjcVRr1XcyQ5vj3kYq3Zcew9-DqViZ4ZLSPHPYw9rwIOeD8__5-Jdrwr8uV9T4NLGTttM3jH-y9BXzu_XhzsIa8lKHshyH3pQCIzIBkKracGvj7nFQW2u-hdeyxreZ9S5Injs5hE0QW0wY5oOzHI13cZuOoK5L9382WigqLxG8i5XmfUIhknGz0kfUgnt4zaU7lbuechUW4eEUsi8uI-J5H5N0lmDNQd7atdg7oWleGCqbj7Fljt0zMbqceuJ6Ro2NBSK-SzxHcd2y3mo1BeeFC5DGsrxLLbeFv6Oh5hdx2eHFT_f_bZHnCXA9s&opi=122715837
+                  - generic [ref=f2e44]:
+                    - text: Why this ad?
+                    - img [ref=f2e45]
+            - generic [ref=f2e47]:
+              - generic [ref=f2e50] [cursor=pointer]: Seen this ad multiple times
+              - generic [ref=f2e53] [cursor=pointer]: Ad was inappropriate
+              - generic [ref=f2e56] [cursor=pointer]: Not interested in this ad
+              - generic [ref=f2e59] [cursor=pointer]: Ad covered content
+            - generic [ref=f2e65]: Thanks. Feedback improves Google ads
+            - generic [ref=f2e71]:
+              - text: Ad closed by
+              - img [ref=f2e72]
+        - generic [ref=e115]:
+          - heading "Practice Form" [level=1] [ref=e116]
+          - heading "Student Registration Form" [level=5] [ref=e117]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e121]: Name
+              - textbox "First Name" [ref=e123]
+              - textbox "Last Name" [ref=e126]: Kuznetsova
+            - generic [ref=e127]:
+              - generic [ref=e129]: Email
+              - textbox "name@example.com" [ref=e131]: kuznetsova@mail.com
+            - generic [ref=e132]:
+              - generic [ref=e133]: Gender
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - radio "Male" [ref=e136]
+                  - generic [ref=e137]: Male
+                - generic [ref=e138]:
+                  - radio "Female" [checked] [ref=e139]
+                  - generic [ref=e140]: Female
+                - generic [ref=e141]:
+                  - radio "Other" [ref=e142]
+                  - generic [ref=e143]: Other
+            - generic [ref=e144]:
+              - generic [ref=e146]: Mobile(10 Digits)
+              - textbox "Mobile Number" [ref=e148]: "2945678901"
+            - generic [ref=e149]:
+              - generic [ref=e151]: Date of Birth
+              - textbox [ref=e155]: 03 Dec 2025
+            - generic [ref=e156]:
+              - generic [ref=e158]: Subjects
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - paragraph [ref=e162]: option Maths, selected.
+                  - paragraph [ref=e163]: 0 results available. Select is focused ,type to refine list, press Down to open the menu, press left to focus selected values
+                - generic [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic [ref=e166]:
+                      - generic [ref=e167]: Maths
+                      - img [ref=e169]
+                    - textbox [active] [ref=e173]
+                  - img [ref=e176]
+            - generic [ref=e179]:
+              - generic [ref=e181]: Hobbies
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - checkbox "Sports" [ref=e184]
+                  - generic [ref=e185]: Sports
+                - generic [ref=e186]:
+                  - checkbox "Reading" [ref=e187]
+                  - generic [ref=e188]: Reading
+                - generic [ref=e189]:
+                  - checkbox "Music" [ref=e190]
+                  - generic [ref=e191]: Music
+            - generic [ref=e192]:
+              - generic [ref=e194]: Picture
+              - generic [ref=e196]:
+                - generic [ref=e197]: Select picture
+                - button "Select picture" [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e201]: Current Address
+              - textbox "Current Address" [ref=e203]: ул. Пушкина, д. 22, Новосибирск
+            - generic [ref=e204]:
+              - generic [ref=e206]: State and City
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]: Select State
+                  - textbox [ref=e214]
+                - img [ref=e218]
+              - generic [ref=e220]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Select City
+                      - generic:
+                        - generic:
+                          - textbox [disabled]
+                    - generic:
+                      - generic:
+                        - img
+            - button "Submit" [ref=e223] [cursor=pointer]
+      - generic [ref=e229]:
+        - img "Build PlayWright tests with AI" [ref=e231] [cursor=pointer]
+        - iframe [ref=e234]:
+          - generic [ref=f3e3]:
+            - link [ref=f3e4] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CyKmY1-Mvaej3D4-k9u8P_LGw4QKgwqvrgwGnp9aijxXa2R4QASDG-9Z5YPGwXaABh9Py6SjIAQKpAuNUq9aBhrM-4AIAqAMByAMIqgS9Ak_QbQQLsTF_DWzFcfq7Ba3BF0bkJR5YebD5VpQP1ub42D5yfQz7RZE-WL_KfzbACXERKQkRdrNu_APfuBjzrz0fB2bNy-V7rtEqdPeRmfiYQPRC42d5J9xfh9Y1r7sDtdfr_gRCCX3s9YdUIAfr4OJojW8JNUXUH-LTh-VyJUC2zEHCod-AyZ7YYaCrkln-DfBUkOYZNe8tOokrhPl7q61rA0uMZHVsBFjpilrHIg4_mWknNO5Sr97N7ny2ba0Yt93mMv4Rm4okamTPdL0uxiOpkYtW3Q8cWffeZyw116TGLpzna4QNjRgPPULWnIjNR0SVIgOUAJLjqL_CUsgfGY51c3PrCxIhfKumQ6-DxJoMVefLPfQ_0GCwFJ7sMeacaoAMYgw3PV4MsrGUTjB2kMYGVQ_vqhZxwSLruO7ywATG4eGuzwXgBAGIBab_oOVWoAYCgAeHi8PJA6gH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgHyqmxAqgH66WxAqgH6rGxAqgHmbWxAqgHvrexAqgH-MKxAqgH-8KxAtgHAdIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WI_BpfLvoJED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQmz3WOFjMlPUoAKA5gLAcgLAaIMCyoGCgTW2LECkAEB2gwRCgsQ0MWYw63W-rPbARICAQOqDQJCWcgNAeINEwjC66Xy76CRAxUPkv0HHfwYLCzqDRMIs6im8u-gkQMVD5L9Bx38GCws8A0CiA7___________8B2BMD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNaoYFwkAAAAA3EcRQRIKNjE2ODU3NjUwNRgBshgJEgLjThgCIgEA&ae=1&ase=2&gclid=EAIaIQobChMIqL_N8u-gkQMVD5L9Bx38GCwsEAEYASAAEgI28fD_BwE&num=1&cid=CAQSoAEAwksa0U2kK05QuWys579c19rT7lYV552sEHLO2pj7_yjIPMbTPTC5KAP8xgV0gZaxOioryX6339la-Ngw_2pf3j8Huq22xLVGosapPDOfRk9LFB6E6dmBoHDQb6B9fvfTgeG3DVRPx9NYY4z2i7Wgkepah_X1W0bqAKLshPu5sVWwW2nr2EWGETgmLPxzrQYw7Y6nhXndYjVykW_V-eREGAE&sig=AOD64_0ke3yKUVrdBStF9gpSa1Sce2F2NA&client=ca-pub-4573231550355221&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://edostavka.by/brands/553%3Fcid%3D5060%26utm_source%3Dgdn%26utm_medium%3Dcpm%26utm_campaign%3Dborjomi_ny
+            - generic [ref=f3e6]:
+              - link [ref=f3e8] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde937vYf1RjqJXfbf2756n3YdZlJ7n9-Z3D6CnhziWaamZBLwfKWvGVBv-mBT6rfCchfgw0mKyKC5xJjYAf_R_2SYUVO0yaFKeMBnea786LRX3fCm5LZ2sED0wgEtt3gY6Y0tmpsUcGdgSU9z0wY-F0nxwnOAPyT-uo5gVE6ZQgTrSNlLz-2wPNdCW203cfXc3Z4JHMbWI_WOkwEpkH7wmT7nRhbqKEi8fKLvbtjskVsfI6lKKE4U29r8ICnW8uW1dO02e8bP_F7ezTmu6rP5xOFLQje3lh4zsFMWEdUKqY4SyWKvSd-6m7cx73-qUMdhbY5xL90uEaRMuBkl2mBPue95CYpSayy7v-tgnn9_uzMRvAkqX2l4ipNz0Hx_2sD6xZy8OBWObZ1siSeg5gSjniCqslgvIC9EM1MZv6CietmZWzZYvu-bEGSzW2EOi-c7Aevob16Eiflj86ccT5rOmC13PCqt7Spqmz_FR1j-Ud9Puat1j7ixnPOA3iUS3-98_D_b7imWiA6f7KaAD0ZPfez2UvKcjTk7tWPYlOsV_LC95vMhHefLLzCj8OdKNyva7yOZekub0kKACyxSoTSmGYcj31OvxfrukFMap_06khEar_liXzBBVibLWaAGfgnoAqGHwenhB1aTPCBVAW15xfv3vbGves4fYnOrMyQ4W1AB8uZBEyhrQ0TblhT84FeGV0miiHZnZ4c339kBDGy9jp41_M-pr-tVsGQFe1ZPzOfS34JGfoA7cwWccHM4BLvpvFeROzemUAPNSVt9jQe6cyvOO_-Ai7JI-3LmoVhS_AYj78PhsOO6Mg8q_WKNlwQ9teH0pmgT95oXeewlH4liE1xRz16pogg0CKWwsXmfG5Ay1PFWs1VJhgK1cQZsX1Szou-puUyNfKQicisJ3HiTntla4xmTzaSHYztDLMeS9ma8_xRD6JyY2qtgAsUI8ajoVEBckz3gk2uFK12RN0J6MWQ-mZZFy5-VLiiNWSNeGW-Kiw4Wa4cn6kt5kQn6JqpdjV-kMVAs6TPitRfftqrB0u19yJB5prfxHyEHhMhqYmZFv2LBQ5kruDxx-xUuDOoL3VieN-K2nJv2U0DG4dXLY6-Yp685BOEm2cj0_n_WybMW9IFES3TVERzZ6TUbKO0QYBSSJlz_lw2RrrQ4aL-JXcFE1bhXQzoJbimWJeeEH_qAeEg7-7nHG3vGGX1k67VXNF2BaUfC-OPvhwVlQofoYrewwtGumLmY0gnxze-MT9BsSZBnDD48VR9Ktzn1ZQgz7i4KYQS6-8y0hNJi8wG_TJLkGkBEYmizgETKUJT9VEftZov4asqdD0N9J-S4PLTJDRDzUedP6w7Wl-QVSc_r1SVChMwTnjqnaL8l--hOZEz9eeE16GN3HQWeLbIr14Ul7ao5bNlNhF_j_LiRM5u_aO_xOnjEcyWlfByPWbCM7bcxqb6naBhyFYw0gG-vKabV4lLY5VsoJlBRgM1KrPzvaC8yOgG6yZO0_kMNO0EZ9ee1fVnYz9CqsFJN1I9EIs4Bqamd8bj6nyIHMRO8qpMBCGo6lZ2AREOEzSXLqYAnEeA4RiMNcS1HvmmQxrdUdS5mKQtXnbmM2SCvXqtIcJEXHWUNQGwjzBU9x3GRM5Sq4yOt9pFLlG7vvB69k3zJ8o3dKyppwPnMzA6npulnu1UdF5CPA78INN9NIo7XZwBhEPABo85l9NmFvYcDnkcZP6p2CFOrP4o7nkYRUOCjBGBbU4pf1DKTlcX7NmoK_oQsL9Wln-x_buZQU0qAySeG6gO4emHAU7OsG3vdrPTavQ4-Jb8mEj5oWPk2fA0Cl95v-nrhjbnwYYF7CiTwtcGlA2DeCSs-ufTkBJwjko76_v9ba7VSkwfz5xWVpRr5R61HrforEjywgXI6YAjkL049IQCVrUpKZlQ2YFVNkCsT1B0FGtB05Jx1GPeFeejLjiyCYEy2prpYMyKK_fhtd2ymcyWE-WXp9gEa4E8zWOprYhoMqE_Ioe3rDiakhmVE8a3BGI0Rah3mzkSYrR6o8N5lln0-PXK4t9__1EL3N2u6T1E0DDw8dek9CUGAz95IoyNq8Qqi-Sri9v7Ai46OtSIl7zOup4lLlMfUEE_mQftyoSn-Z8vLF0ryY5zoFo0vACAmpDkT1EcxS4zHOAdsk0Ods4Nh8d01aOQo80XcwEO1sPXILNsIb7Zwd12bclgynCkc84FCgkQz1HGheya_HEWRMt4pkOB4FbsI-k3soWx3ENVLR36I_cQH_DMG6ypEL1-pW4NnaoY_tDFu1oKsd9OPEJeqRAjSyXOsWGRCRlye0MarHjkCAzXJ6LNLb0ivaU2xYNhJygUFnJRbre0auNKalAArOx1XtSTqcYVNilWFoTPIAMa2c78qXj4EO9TvoPpjWQTxedDAwp7vtlnwiqAWXLgz9KnceubsCsqWkr1ujXKjowBgkvs4Tj8zW_LVJlJ2EUJ2t-t9aknkboXh4aMFLQa7AFQZMMZhZUzdKuwnEdznN48X0YDXqAyedoW3m1lZJmYvxSy15Wwllw-2Fl0vep9MPWw&opi=122715837
+                - img [ref=f3e10]
+              - link [ref=f3e12] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde937vYf1RjqJXfbf2756n3YdZlJ7n9-Z3D6CnhziWaamZBLwfKWvGVBv-mBT6rfCchfgw0mKyKC5xJjYAf_R_2SYUVO0yaFKeMBnea786LRX3fCm5LZ2sED0wgEtt3gY6Y0tmpsUcGdgSU9z0wY-F0nxwnOAPyT-uo5gVE6ZQgTrSNlLz-2wPNdCW203cfXc3Z4JHMbWI_WOkwEpkH7wmT7nRhbqKEi8fKLvbtjskVsfI6lKKE4U29r8ICnW8uW1dO02e8bP_F7ezTmu6rP5xOFLQje3lh4zsFMWEdUKqY4SyWKvSd-6m7cx73-qUMdhbY5xL90uEaRMuBkl2mBPue95CYpSayy7v-tgnn9_uzMRvAkqX2l4ipNz0Hx_2sD6xZy8OBWObZ1siSeg5gSjniCqslgvIC9EM1MZv6CietmZWzZYvu-bEGSzW2EOi-c7Aevob16Eiflj86ccT5rOmC13PCqt7Spqmz_FR1j-Ud9Puat1j7ixnPOA3iUS3-98_D_b7imWiA6f7KaAD0ZPfez2UvKcjTk7tWPYlOsV_LC95vMhHefLLzCj8OdKNyva7yOZekub0kKACyxSoTSmGYcj31OvxfrukFMap_06khEar_liXzBBVibLWaAGfgnoAqGHwenhB1aTPCBVAW15xfv3vbGves4fYnOrMyQ4W1AB8uZBEyhrQ0TblhT84FeGV0miiHZnZ4c339kBDGy9jp41_M-pr-tVsGQFe1ZPzOfS34JGfoA7cwWccHM4BLvpvFeROzemUAPNSVt9jQe6cyvOO_-Ai7JI-3LmoVhS_AYj78PhsOO6Mg8q_WKNlwQ9teH0pmgT95oXeewlH4liE1xRz16pogg0CKWwsXmfG5Ay1PFWs1VJhgK1cQZsX1Szou-puUyNfKQicisJ3HiTntla4xmTzaSHYztDLMeS9ma8_xRD6JyY2qtgAsUI8ajoVEBckz3gk2uFK12RN0J6MWQ-mZZFy5-VLiiNWSNeGW-Kiw4Wa4cn6kt5kQn6JqpdjV-kMVAs6TPitRfftqrB0u19yJB5prfxHyEHhMhqYmZFv2LBQ5kruDxx-xUuDOoL3VieN-K2nJv2U0DG4dXLY6-Yp685BOEm2cj0_n_WybMW9IFES3TVERzZ6TUbKO0QYBSSJlz_lw2RrrQ4aL-JXcFE1bhXQzoJbimWJeeEH_qAeEg7-7nHG3vGGX1k67VXNF2BaUfC-OPvhwVlQofoYrewwtGumLmY0gnxze-MT9BsSZBnDD48VR9Ktzn1ZQgz7i4KYQS6-8y0hNJi8wG_TJLkGkBEYmizgETKUJT9VEftZov4asqdD0N9J-S4PLTJDRDzUedP6w7Wl-QVSc_r1SVChMwTnjqnaL8l--hOZEz9eeE16GN3HQWeLbIr14Ul7ao5bNlNhF_j_LiRM5u_aO_xOnjEcyWlfByPWbCM7bcxqb6naBhyFYw0gG-vKabV4lLY5VsoJlBRgM1KrPzvaC8yOgG6yZO0_kMNO0EZ9ee1fVnYz9CqsFJN1I9EIs4Bqamd8bj6nyIHMRO8qpMBCGo6lZ2AREOEzSXLqYAnEeA4RiMNcS1HvmmQxrdUdS5mKQtXnbmM2SCvXqtIcJEXHWUNQGwjzBU9x3GRM5Sq4yOt9pFLlG7vvB69k3zJ8o3dKyppwPnMzA6npulnu1UdF5CPA78INN9NIo7XZwBhEPABo85l9NmFvYcDnkcZP6p2CFOrP4o7nkYRUOCjBGBbU4pf1DKTlcX7NmoK_oQsL9Wln-x_buZQU0qAySeG6gO4emHAU7OsG3vdrPTavQ4-Jb8mEj5oWPk2fA0Cl95v-nrhjbnwYYF7CiTwtcGlA2DeCSs-ufTkBJwjko76_v9ba7VSkwfz5xWVpRr5R61HrforEjywgXI6YAjkL049IQCVrUpKZlQ2YFVNkCsT1B0FGtB05Jx1GPeFeejLjiyCYEy2prpYMyKK_fhtd2ymcyWE-WXp9gEa4E8zWOprYhoMqE_Ioe3rDiakhmVE8a3BGI0Rah3mzkSYrR6o8N5lln0-PXK4t9__1EL3N2u6T1E0DDw8dek9CUGAz95IoyNq8Qqi-Sri9v7Ai46OtSIl7zOup4lLlMfUEE_mQftyoSn-Z8vLF0ryY5zoFo0vACAmpDkT1EcxS4zHOAdsk0Ods4Nh8d01aOQo80XcwEO1sPXILNsIb7Zwd12bclgynCkc84FCgkQz1HGheya_HEWRMt4pkOB4FbsI-k3soWx3ENVLR36I_cQH_DMG6ypEL1-pW4NnaoY_tDFu1oKsd9OPEJeqRAjSyXOsWGRCRlye0MarHjkCAzXJ6LNLb0ivaU2xYNhJygUFnJRbre0auNKalAArOx1XtSTqcYVNilWFoTPIAMa2c78qXj4EO9TvoPpjWQTxedDAwp7vtlnwiqAWXLgz9KnceubsCsqWkr1ujXKjowBgkvs4Tj8zW_LVJlJ2EUJ2t-t9aknkboXh4aMFLQa7AFQZMMZhZUzdKuwnEdznN48X0YDXqAyedoW3m1lZJmYvxSy15Wwllw-2Fl0vep9MPWw&opi=122715837
+                - img [ref=f3e14]
+            - img [ref=f3e17] [cursor=pointer]
+            - generic [ref=f3e28]:
+              - img [ref=f3e31]
+              - generic [ref=f3e34]:
+                - text: Ads by
+                - img [ref=f3e35]
+              - generic [ref=f3e38]:
+                - generic [ref=f3e41] [cursor=pointer]: Send feedback
+                - link [ref=f3e43] [cursor=pointer]:
+                  - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde937vYf1RjqJXfbf2756n3YdZlJ7n9-Z3D6CnhziWaamZBLwfKWvGVBv-mBT6rfCchfgw0mKyKC5xJjYAf_R_2SYUVO0yaFKeMBnea786LRX3fCm5LZ2sED0wgEtt3gY6Y0tmpsUcGdgSU9z0wY-F0nxwnOAPyT-uo5gVE6ZQgTrSNlLz-2wPNdCW203cfXc3Z4JHMbWI_WOkwEpkH7wmT7nRhbqKEi8fKLvbtjskVsfI6lKKE4U29r8ICnW8uW1dO02e8bP_F7ezTmu6rP5xOFLQje3lh4zsFMWEdUKqY4SyWKvSd-6m7cx73-qUMdhbY5xL90uEaRMuBkl2mBPue95CYpSayy7v-tgnn9_uzMRvAkqX2l4ipNz0Hx_2sD6xZy8OBWObZ1siSeg5gSjniCqslgvIC9EM1MZv6CietmZWzZYvu-bEGSzW2EOi-c7Aevob16Eiflj86ccT5rOmC13PCqt7Spqmz_FR1j-Ud9Puat1j7ixnPOA3iUS3-98_D_b7imWiA6f7KaAD0ZPfez2UvKcjTk7tWPYlOsV_LC95vMhHefLLzCj8OdKNyva7yOZekub0kKACyxSoTSmGYcj31OvxfrukFMap_06khEar_liXzBBVibLWaAGfgnoAqGHwenhB1aTPCBVAW15xfv3vbGves4fYnOrMyQ4W1AB8uZBEyhrQ0TblhT84FeGV0miiHZnZ4c339kBDGy9jp41_M-pr-tVsGQFe1ZPzOfS34JGfoA7cwWccHM4BLvpvFeROzemUAPNSVt9jQe6cyvOO_-Ai7JI-3LmoVhS_AYj78PhsOO6Mg8q_WKNlwQ9teH0pmgT95oXeewlH4liE1xRz16pogg0CKWwsXmfG5Ay1PFWs1VJhgK1cQZsX1Szou-puUyNfKQicisJ3HiTntla4xmTzaSHYztDLMeS9ma8_xRD6JyY2qtgAsUI8ajoVEBckz3gk2uFK12RN0J6MWQ-mZZFy5-VLiiNWSNeGW-Kiw4Wa4cn6kt5kQn6JqpdjV-kMVAs6TPitRfftqrB0u19yJB5prfxHyEHhMhqYmZFv2LBQ5kruDxx-xUuDOoL3VieN-K2nJv2U0DG4dXLY6-Yp685BOEm2cj0_n_WybMW9IFES3TVERzZ6TUbKO0QYBSSJlz_lw2RrrQ4aL-JXcFE1bhXQzoJbimWJeeEH_qAeEg7-7nHG3vGGX1k67VXNF2BaUfC-OPvhwVlQofoYrewwtGumLmY0gnxze-MT9BsSZBnDD48VR9Ktzn1ZQgz7i4KYQS6-8y0hNJi8wG_TJLkGkBEYmizgETKUJT9VEftZov4asqdD0N9J-S4PLTJDRDzUedP6w7Wl-QVSc_r1SVChMwTnjqnaL8l--hOZEz9eeE16GN3HQWeLbIr14Ul7ao5bNlNhF_j_LiRM5u_aO_xOnjEcyWlfByPWbCM7bcxqb6naBhyFYw0gG-vKabV4lLY5VsoJlBRgM1KrPzvaC8yOgG6yZO0_kMNO0EZ9ee1fVnYz9CqsFJN1I9EIs4Bqamd8bj6nyIHMRO8qpMBCGo6lZ2AREOEzSXLqYAnEeA4RiMNcS1HvmmQxrdUdS5mKQtXnbmM2SCvXqtIcJEXHWUNQGwjzBU9x3GRM5Sq4yOt9pFLlG7vvB69k3zJ8o3dKyppwPnMzA6npulnu1UdF5CPA78INN9NIo7XZwBhEPABo85l9NmFvYcDnkcZP6p2CFOrP4o7nkYRUOCjBGBbU4pf1DKTlcX7NmoK_oQsL9Wln-x_buZQU0qAySeG6gO4emHAU7OsG3vdrPTavQ4-Jb8mEj5oWPk2fA0Cl95v-nrhjbnwYYF7CiTwtcGlA2DeCSs-ufTkBJwjko76_v9ba7VSkwfz5xWVpRr5R61HrforEjywgXI6YAjkL049IQCVrUpKZlQ2YFVNkCsT1B0FGtB05Jx1GPeFeejLjiyCYEy2prpYMyKK_fhtd2ymcyWE-WXp9gEa4E8zWOprYhoMqE_Ioe3rDiakhmVE8a3BGI0Rah3mzkSYrR6o8N5lln0-PXK4t9__1EL3N2u6T1E0DDw8dek9CUGAz95IoyNq8Qqi-Sri9v7Ai46OtSIl7zOup4lLlMfUEE_mQftyoSn-Z8vLF0ryY5zoFo0vACAmpDkT1EcxS4zHOAdsk0Ods4Nh8d01aOQo80XcwEO1sPXILNsIb7Zwd12bclgynCkc84FCgkQz1HGheya_HEWRMt4pkOB4FbsI-k3soWx3ENVLR36I_cQH_DMG6ypEL1-pW4NnaoY_tDFu1oKsd9OPEJeqRAjSyXOsWGRCRlye0MarHjkCAzXJ6LNLb0ivaU2xYNhJygUFnJRbre0auNKalAArOx1XtSTqcYVNilWFoTPIAMa2c78qXj4EO9TvoPpjWQTxedDAwp7vtlnwiqAWXLgz9KnceubsCsqWkr1ujXKjowBgkvs4Tj8zW_LVJlJ2EUJ2t-t9aknkboXh4aMFLQa7AFQZMMZhZUzdKuwnEdznN48X0YDXqAyedoW3m1lZJmYvxSy15Wwllw-2Fl0vep9MPWw&opi=122715837
+                  - generic [ref=f3e44]:
+                    - text: Why this ad?
+                    - img [ref=f3e45]
+            - generic [ref=f3e47]:
+              - generic [ref=f3e50] [cursor=pointer]: Seen this ad multiple times
+              - generic [ref=f3e53] [cursor=pointer]: Ad was inappropriate
+              - generic [ref=f3e56] [cursor=pointer]: Ad covered content
+              - generic [ref=f3e59] [cursor=pointer]: Not interested in this ad
+            - generic [ref=f3e65]: Thanks. Feedback improves Google ads
+            - generic [ref=f3e71]:
+              - text: Ad closed by
+              - img [ref=f3e72]
+        - iframe [ref=e237]:
+          - generic [ref=f4e2]:
+            - iframe [ref=f4e5]:
+              - generic [ref=f5e1] [cursor=pointer]:
+                - link:
+                  - /url: javascript:window.open(window.clickTag)
+            - generic [ref=f4e6]:
+              - generic:
+                - img [ref=f4e10] [cursor=pointer]
+                - button [ref=f4e12] [cursor=pointer]:
+                  - img [ref=f4e13]
+    - contentinfo [ref=e238]:
+      - generic [ref=e239]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

@@ -17,7 +17,12 @@ export default defineConfig({
 
     {
       name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
+      use: {
+        ...devices["Desktop Firefox"],
+        actionTimeout: 15000,
+        navigationTimeout: 20000,
+        launchOptions: { slowMo: 100 },
+      },
     },
 
     {

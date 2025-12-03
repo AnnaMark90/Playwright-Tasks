@@ -35,8 +35,8 @@ test.describe("testing form", () => {
     await fillAllTextData(page, validData);
 
     await chooseOption(page, "gender", [validData.gender]);
-    // await chooseOption(page, "subject", [...validData.subjects]);
-    // await chooseOption(page, "hobbies", [...validData.hobbies]);
+    await chooseOption(page, "subjects", [...validData.subjects]);
+    await chooseOption(page, "hobbies", [...validData.hobbies]);
 
     await chooseDateOfBirth(page, validData.birthDate);
     await uploadImage(page, validData.picture);
@@ -90,8 +90,8 @@ test.describe("testing form", () => {
     await fillAllTextData(page, TestDataInvalEmail);
 
     await chooseOption(page, "gender", [TestDataInvalEmail.gender]);
-    // await chooseOption(page, "subject", [...TestDataInvalEmail.subjects]);
-    // await chooseOption(page, "hobbies", [...TestDataInvalEmail.hobbies]);
+    await chooseOption(page, "subjects", [...TestDataInvalEmail.subjects]);
+    await chooseOption(page, "hobbies", [...TestDataInvalEmail.hobbies]);
 
     await chooseDateOfBirth(page, TestDataInvalEmail.birthDate);
     await uploadImage(page, TestDataInvalEmail.picture);
@@ -105,7 +105,7 @@ test.describe("testing form", () => {
     await validHighlight(page, formSelectors.gender("Male"));
     await validHighlight(page, formSelectors.mobile);
     await validHighlight(page, formSelectors.birthDate);
-    // await validHighlight(page, formSelectors.hobbies);
+    await validHighlight(page, formSelectors.subjectsInput);
     await validHighlight(page, formSelectors.currentAddress);
   });
 
@@ -118,8 +118,8 @@ test.describe("testing form", () => {
     ]);
 
     await chooseOption(page, "gender", [DataWithoutName.gender]);
-    // await chooseOption(page, "subject", [...DataWithoutName.subjects]);
-    // await chooseOption(page, "hobbies", [...DataWithoutName.hobbies]);
+    await chooseOption(page, "subjects", [...DataWithoutName.subjects]);
+    await chooseOption(page, "hobbies", [...DataWithoutName.hobbies]);
 
     await chooseDateOfBirth(page, DataWithoutName.birthDate);
     await uploadImage(page, DataWithoutName.picture);
@@ -133,7 +133,7 @@ test.describe("testing form", () => {
     await validHighlight(page, formSelectors.gender("Female"));
     await validHighlight(page, formSelectors.mobile);
     await validHighlight(page, formSelectors.birthDate);
-    // await validHighlight(page, formSelectors.hobbies);
+    await validHighlight(page, formSelectors.subjectsInput);
     await validHighlight(page, formSelectors.currentAddress);
   });
 });
