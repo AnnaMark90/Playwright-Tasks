@@ -1,0 +1,1 @@
+Create automated end-to-end tests using Playwright (TypeScript) for three web applications: DemoQA Text Box Form, DemoQA Practice Form, and SauceDemo e-commerce site. Tests must cover form filling, file uploads, sorting functionality, and bug detection across multiple browsers with Allure reporting.
