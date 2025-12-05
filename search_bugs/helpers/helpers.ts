@@ -16,18 +16,18 @@ export async function openPage(page: Page): Promise<void> {
   await expect(locator).toContainText("Swag Labs");
 }
 
-export async function fillingData(
-  page: Page,
-  data: userData,
-  fields: (keyof userData)[]
-): Promise<void> {
-  for (const field of fields) {
-    const selector = userSelectors[field];
-    if (typeof selector === "string" && typeof data[field] === "string") {
-      await page.fill(selector, data[field]);
-    }
-  }
-}
+// export async function fillingData(
+//   page: Page,
+//   data: userData,
+//   fields: (keyof userData)[]
+// ): Promise<void> {
+//   for (const field of fields) {
+//     const selector = userSelectors[field];
+//     if (typeof selector === "string" && typeof data[field] === "string") {
+//       await page.fill(selector, data[field]);
+//     }
+//   }
+// }
 
 export async function loginEnter(page: Page): Promise<void> {
   await page.click("#login-button");

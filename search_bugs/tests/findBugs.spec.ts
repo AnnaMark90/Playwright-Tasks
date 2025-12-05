@@ -1,22 +1,24 @@
 import { test } from "@playwright/test";
 import {
-  openPage,
-  fillingData,
-  loginEnter,
   selectHigherSorting,
+  loginEnter,
   verifyProductsSortedByLower,
   chooseAboutInBurger,
   addAndRemoveItem,
   openCheckoutForm,
-  fillingInCheckoutData
+  fillingInCheckoutData,
 } from "../helpers/helpers.js";
-import { checkoutData, problemUser } from "../types/types.js";
+import { checkoutData, problemUser, LoginPage } from "../types/types.js";
 
 test.describe("finding bugs on platfoorm", () => {
   test.beforeEach(async ({ page }) => {
-    await openPage(page);
-    await fillingData(page, problemUser, ["username", "password"]);
-    await loginEnter(page);
+    const playwrightDev = new LoginPage(page);
+    await playwrightDev.goto();
+    await playwrightDev.fillingData(page, problemUser, [
+      "username",
+      "password",
+    ]);
+    await loginEnter(playwrightDev.page);
   });
 
   test("display products from low", async ({ page }) => {
@@ -34,6 +36,10 @@ test.describe("finding bugs on platfoorm", () => {
 
   test("filling in data to checkout", async ({ page }) => {
     await openCheckoutForm(page);
-    await fillingInCheckoutData(page, checkoutData,["firstname", "lastname", "postcode"]);
+    await fillingInCheckoutData(page, checkoutData, [
+      "firstname",
+      "lastname",
+      "postcode",
+    ]);
   });
 });
